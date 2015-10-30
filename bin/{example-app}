@@ -1,0 +1,7 @@
+#!/usr/bin/env php
+<?php
+require_once dirname(__DIR__) . '/vendor/autoload.php';
+
+$container = new \ExampleVendor\ExampleApp\Container();
+$app = new \ExampleVendor\ExampleApp\Application($container);
+$app->run();

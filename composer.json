@@ -1,0 +1,22 @@
+{
+	"name": "console-helpers/new-project",
+	"description": "Foundation for new 'console-helpers/console-kit' based project creation",
+	"license": "BSD-3-Clause",
+	"require": {
+		"console-helpers/console-kit": "^0.0.1"
+	},
+	"require-dev": {
+		"aik099/coding-standard": "dev-master"
+	},
+	"autoload": {
+		"psr-4": {
+			"ExampleVendor\\ExampleApp\\": "src/ExampleApp/"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"Tests\\ExampleVendor\\ExampleApp\\": "tests/ExampleApp/"
+		}
+	},
+	"bin": ["bin/{example-app}"]
+}
