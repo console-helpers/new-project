@@ -3,7 +3,7 @@
 	"description": "Foundation for new 'console-helpers/console-kit' based project creation",
 	"license": "BSD-3-Clause",
 	"require": {
-		"console-helpers/console-kit": "^0.0.1"
+		"console-helpers/console-kit": "^0.1"
 	},
 	"require-dev": {
 		"aik099/coding-standard": "dev-master"
